@@ -4,7 +4,7 @@
 }
 
 object {
-    color-scheme: light; // Override for object elements to avoid a white background in dark mode
+    color-scheme: light !important; // Override for object elements to avoid a white background in dark mode
 }
 
 // Core imports

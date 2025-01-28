@@ -40,7 +40,7 @@ The `ui.config.json` file allows you to customize various aspects of the web vie
 
 ### HTML Settings
 
-```json
+```text
 {
     "html": {
         // Name of the HTML file to modify
@@ -59,7 +59,7 @@ The `ui.config.json` file allows you to customize various aspects of the web vie
 
 ![Flow animation](assets/flow_animation.gif)
 
-```json
+```text
 {
     "svg": {
         // Directory containing SVG files
