@@ -1,0 +1,18 @@
+// Global Dijit overrides
+.dijitBorderContainerNoGutter {
+    background-color: var(--bg-neutral-50) !important;
+}
+
+.dijitTabPane {
+    position: absolute !important;
+    inset: 0 !important;
+}
+
+.dijitTabContainer {
+    background-color: var(--bg-neutral-50) !important;
+    padding: var(--spacing-md);
+}
+
+.dijitFocusedLabel {
+    outline: none !important;
+}

@@ -1,0 +1,59 @@
+// Splitter Component
+// Controls the resizable dividers between panels
+
+// Vertical Splitter
+.dijitSplitterV {
+    cursor: ew-resize !important;
+
+    .dijitSplitterThumb {
+        left: 2px !important;
+        top: 8px !important;
+        height: calc(100% - 16px) !important;
+        width: 2px !important;
+        margin: auto 0;
+        background: var(--bg-neutral-100) !important;
+        border-radius: 1px !important;
+    }
+}
+
+// Horizontal Splitter
+.dijitSplitterH {
+    cursor: ns-resize !important;
+
+    .dijitSplitterThumb {
+        left: 8px !important;
+        top: 2px !important;
+        height: 2px !important;
+        width: calc(100% - 16px) !important;
+        background: var(--bg-neutral-100) !important;
+        border-radius: 1px !important;
+    }
+}
+
+// Hover and Active States
+.dijitSplitterVHover,
+.dijitSplitterHHover,
+.dijitSplitterVActive,
+.dijitSplitterHActive {
+    background: var(--bg-neutral-500) !important;
+    border-radius: var(--radius-sm);
+
+    .dijitSplitterThumb {
+        background: var(--bg-neutral-500) !important;
+    }
+}
+
+// Grid Resize Handle
+.dgrid-resize-handle {
+    height: 100% !important;
+    width: 2px !important;
+    top: 0 !important;
+    background: var(--bg-neutral-300) !important;
+    border: none !important;
+    border-radius: 1px;
+    cursor: ew-resize !important;
+
+    &:hover {
+        background: var(--bg-neutral-400) !important;
+    }
+}

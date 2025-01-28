@@ -1,0 +1,131 @@
+.wvModelInspector {
+    margin: var(--spacing-md) 0;
+    margin-left: var(--spacing-md);
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-400) !important;
+    background: var(--bg-neutral-100) !important;
+    border-top-left-radius: var(--radius-xl) !important;
+    border-bottom-left-radius: var(--radius-xl) !important;
+    border-bottom-right-radius: var(--radius-xl) !important;
+}
+
+.wvModelInspectorTitleText {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-semibold) !important;
+    font-size: var(--text-sm) !important;
+    color: var(--text-neutral-100) !important;
+}
+
+.palette-widget {
+    margin: var(--spacing-md) 0;
+    background: none !important;
+}
+
+.palette-widget .vertical-palette-button .dijitButtonNode,
+.palette-widget .vertical-palette-button {
+    margin: 0 !important;
+    background: var(--bg-neutral-100) !important;
+    border: none !important;
+    border-radius: var(--radius-lg) !important;
+}
+
+.palette-widget .vertical-palette-button .dijitButtonText {
+    padding: var(--spacing-2xl) var(--spacing-sm) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-medium) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-400) !important;
+    background: none !important;
+    transition: color var(--ease-in-out-default);
+}
+
+.palette-widget .vertical-palette-button.dijitButtonChecked .dijitButtonNode {
+    border-top-right-radius: var(--radius-lg) !important;
+    border-bottom-right-radius: var(--radius-lg) !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.palette-widget .vertical-palette-button.dijitButtonChecked .dijitButtonText {
+    color: var(--text-neutral-200) !important;
+}
+
+.wvModelInspectorTitleBar {
+    padding: var(--spacing-lg);
+}
+
+.wvModelInspectorContainer {
+    width: calc(100% - 16px) !important;
+    margin-bottom: 20px;
+    padding: 0 var(--spacing-md);
+    border-radius: var(--radius-lg);
+}
+
+.wvModelInspector .dijitTitlePane {
+    margin-bottom: var(--spacing-lg);
+    border: none !important;
+    border-radius: var(--radius-md);
+}
+
+.wvModelInspector .dijitTitlePaneTitle {
+    padding: var(--spacing-md) var(--spacing-md);
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-500) !important;
+    background: var(--bg-neutral-100) !important;
+    border: none !important;
+    border-radius: var(--radius-md);
+    transition: all var(--ease-in-out-default);
+}
+
+.wvModelInspector .dijitTitlePaneTitleHover {
+    background: var(--bg-neutral-200) !important;
+}
+
+.wvModelInspector .dijitTitlePaneTitleOpen {
+    color: var(--text-neutral-400) !important;
+    background: var(--bg-neutral-200) !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.wvModelInspector .dijitArrowNode {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.wvModelInspector .dijitTitlePaneTitleOpen .dijitArrowNode {
+    transform: rotate(90deg) !important;
+}
+
+.wvModelInspector .dijitTitlePaneTextNode {
+    margin-left: var(--spacing-lg);
+}
+
+.wvModelInspector .dgrid-header,
+.wvModelInspector .dijitTitlePaneContentOuter {
+    background: none !important;
+}
+
+.wvModelInspector .dgrid .dgrid-scroller {
+    padding: var(--spacing-md) !important;
+    background: var(--bg-neutral-200) !important;
+}
+
+.wvModelInspector .dgrid-cell {
+    color: var(--text-neutral-300) !important;
+    background: none !important;
+    border: none !important;
+}
+
+.wvModelInspector .field-name {
+    font-weight: var(--font-medium) !important;
+    color: var(--text-neutral-500) !important;
+}
+
+.wvModelInspectorFieldValue {
+    width: calc(100% - 10px) !important;
+}

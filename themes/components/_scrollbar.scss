@@ -1,0 +1,32 @@
+// Custom scrollbar styling
+// Applies to webkit browsers only
+
+// Scrollbar container
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: var(--bg-neutral-200);
+    border-radius: 4px;
+}
+
+// Scrollbar track
+::-webkit-scrollbar-track {
+    // Empty but kept for potential future styling
+}
+
+// Scrollbar thumb/handle
+::-webkit-scrollbar-thumb {
+    background: var(--bg-neutral-300);
+    border-radius: 4px;
+    transition: all var(--ease-in-out-default);
+
+    &:hover {
+        background: var(--bg-neutral-400);
+        cursor: pointer;
+    }
+}
+
+// Scrollbar corner
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}

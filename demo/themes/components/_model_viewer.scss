@@ -1,0 +1,242 @@
+.wvModelViewer {
+    // Tabs
+    .dijitTabContainer {
+        background-color: var(--bg-neutral-50) !important;
+        padding: var(--spacing-md);
+    }
+
+    .dijitTabContainerTop-tabs {
+        border-bottom: none !important;
+
+        .dijitTab {
+            padding: var(--spacing-xs) var(--spacing-2xl) !important;
+            font-family: var(--font-sans) !important;
+            font-weight: var(--font-normal) !important;
+            font-size: var(--text-sm) !important;
+            color: var(--text-neutral-100) !important;
+            background-color: var(--bg-neutral-100) !important;
+            border: none !important;
+            border-top-left-radius: var(--radius-lg) !important;
+            border-top-right-radius: var(--radius-lg) !important;
+            opacity: 0.25 !important;
+        }
+
+        .dijitTabChecked {
+            font-weight: var(--font-semibold) !important;
+            opacity: 1 !important;
+        }
+
+        .dijitHover {
+            opacity: 0.5 !important;
+            transition: opacity var(--ease-in-out-default);
+        }
+    }
+
+    .dijitBorderContainerNoGutter {
+        background: var(--bg-neutral-100) !important;
+    }
+
+    .dijitTabPaneWrapper {
+        padding: var(--spacing-sm);
+        color: var(--text-neutral-100) !important;
+        background-color: var(--bg-neutral-100) !important;
+        border: none !important;
+        border-top-right-radius: var(--radius-xl) !important;
+        border-bottom-left-radius: var(--radius-xl) !important;
+        border-bottom-right-radius: var(--radius-xl) !important;
+    }
+}
+
+// Explorer Bar (Model Viewer Navbar)
+.wvModelViewer .wvExplorerBar {
+    color: var(--text-neutral-100) !important;
+    background-color: var(--bg-neutral-200) !important;
+    border: none !important;
+    border-radius: var(--radius-lg);
+
+    .dijitSplitterV .dijitSplitterThumb {
+        top: 4px !important;
+        height: calc(100% - 8px) !important;
+        background: var(--bg-neutral-300) !important;
+    }
+
+    .dijitSplitterVHover,
+    .dijitSplitterVActive {
+        background: var(--bg-neutral-500) !important;
+        border-radius: var(--radius-sm);
+
+        .dijitSplitterThumb {
+            background: var(--bg-neutral-500) !important;
+        }
+    }
+
+    .dijitButtonText {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-normal) !important;
+        font-size: var(--text-xs) !important;
+        color: var(--text-neutral-400) !important;
+    }
+
+    &.dijitHover .dijitButtonText {
+        background: none !important;
+        color: var(--text-neutral-100) !important;
+        transition: color var(--ease-in-out-default);
+    }
+
+    & > .wvExplorerBarToggleButtonSplitter {
+        display: none !important;
+    }
+
+    .system-button-widgetHover {
+        background: none !important;
+        color: var(--text-neutral-100) !important;
+        transition: color var(--ease-in-out-default);
+    }
+
+    .wvExplorerBarExpandButton {
+        line-height: 26px;
+        margin-right: var(--spacing-md);
+        overflow: visible !important;
+        transform: rotate(90deg);
+
+        &.dijitDropDownButtonHover {
+            background: none !important;
+        }
+
+        &.dijitDropDownButtonOpened .dijitArrowButtonInner {
+            transform: rotate(180deg) !important;
+        }
+    }
+
+    /* Search Bar */
+    .wvExplorerBarToggleButton {
+        &.dijitButton {
+            background: none !important;
+        }
+        &.dijitButton > .dijitButtonNode {
+            background: none !important;
+            border: none !important;
+        }
+
+        &.dijitButtonHover > .dijitButtonNode {
+            background: var(--bg-neutral-400) !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.wvInlineSearch {
+    background: none !important;
+
+    & > .dijitDropDownButton {
+        border: none !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    & > .dijitDropDownButton > .dijitButtonNode {
+        background: none !important;
+        border: none !important;
+        border-radius: var(--radius-md) !important;
+        box-shadow: none !important;
+    }
+
+    & > .dijitDropDownButtonHover > .dijitButtonNode {
+        background: var(--bg-neutral-400) !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    & > form {
+        background: none !important;
+    }
+
+    .dijitTextBox {
+        margin-right: var(--spacing-md) !important;
+        background: var(--bg-neutral-300) !important;
+        border: none !important;
+        border-radius: var(--radius-sm) !important;
+        overflow: hidden !important;
+    }
+
+    .dijitTextBox input {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-normal) !important;
+        font-size: var(--text-xs) !important;
+        color: var(--text-neutral-100) !important;
+        background: none !important;
+        caret-color: var(--text-neutral-100);
+        border-radius: var(--radius-sm);
+    }
+
+    .dijitTextBox .dijitPlaceHolder {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-normal) !important;
+        font-size: var(--text-xs) !important;
+        color: var(--text-neutral-500) !important;
+    }
+
+    .dijitFocused .dijitInputContainer {
+        background: none !important;
+    }
+}
+
+/* Diagram View */
+.wvDiagramTabViewPane {
+    padding-top: var(--spacing-sm) !important;
+
+    .model-graphics-widget {
+        background: linear-gradient(
+                -90deg,
+                rgba(120, 120, 120, 0.05) 1px,
+                transparent 1px
+            ),
+            linear-gradient(rgba(120, 120, 120, 0.05) 1px, transparent 1px),
+            linear-gradient(
+                -90deg,
+                rgba(120, 120, 120, 0.04) 1px,
+                transparent 1px
+            ),
+            linear-gradient(rgba(120, 120, 120, 0.04) 1px, transparent 1px),
+            linear-gradient(
+                transparent 3px,
+                var(--bg-neutral-100) 3px,
+                var(--bg-neutral-100) 78px,
+                transparent 78px
+            ),
+            linear-gradient(-90deg, var(--bg-neutral-200) 1px, transparent 1px),
+            linear-gradient(
+                -90deg,
+                transparent 3px,
+                var(--bg-neutral-100) 3px,
+                var(--bg-neutral-100) 78px,
+                transparent 78px
+            ),
+            linear-gradient(var(--bg-neutral-200) 1px, transparent 1px),
+            var(--bg-neutral-100) !important;
+
+        background-size: 4px 4px, 4px 4px, 80px 80px, 80px 80px, 80px 80px,
+            80px 80px, 80px 80px, 80px 80px !important;
+
+        border-radius: var(--radius-lg) !important;
+    }
+}
+
+// Thumbnails
+.wvViewAllTabImg {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain !important;
+    background: var(--bg-neutral-200) !important;
+    border-radius: var(--radius-lg) !important;
+    transition: background var(--ease-in-out-default);
+}
+
+.wvViewAllTabImgHover {
+    background: var(--bg-neutral-400) !important;
+}
+
+.wvViewAllTabImgSelected {
+    background: var(--bg-neutral-300) !important;
+}

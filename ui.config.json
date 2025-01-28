@@ -1,0 +1,29 @@
+{
+    "html": {
+        "filename": "webview.html",
+        "title": "Simulink Web View",
+        "favicon": "favicon.ico",
+        "theme": "themes/default-dark-theme/style.css"
+    },
+    "svg": {
+        "path": "support/slwebview_files",
+        "diagram": {
+            "enableBackground": false,
+            "fontFamily": "JetBrains Mono"
+        },
+        "blocks": {
+            "oldBackgroundColor": "#262626CC",
+            "backgroundColor": "#262626CC",
+            "oldForegroundPrimaryColor": "#f5f5f5",
+            "foregroundPrimaryColor": "#f5f5f5",
+            "oldForegroundSecondaryColor": ["#cecece"],
+            "foregroundSecondaryColor": "#cecece",
+            "useImages": false,
+            "useGradients": false
+        },
+        "connections": {
+            "useDashedLines": true,
+            "useAnimations": true
+        }
+    }
+}

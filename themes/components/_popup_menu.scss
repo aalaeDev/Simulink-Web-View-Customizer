@@ -1,0 +1,64 @@
+.dijitTooltipContainer,
+.dijitMenu,
+.dijitMenu .dijitMenuPopup {
+    margin: var(--spacing-sm) 0;
+    padding: var(--spacing-sm) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-400) !important;
+    background: var(--bg-neutral-200) !important;
+    border: none !important;
+    border-radius: var(--radius-md) !important;
+    box-shadow: var(--shadow-lg) !important;
+}
+
+.dijitTooltipContainer {
+    color: var(--text-neutral-300) !important;
+}
+
+.dijitMenuPopup .dijitMenu.system-button-widget {
+    margin: var(--spacing-lg) 0;
+}
+
+.dijitMenu td,
+.dijitMenuPopup td {
+    padding: var(--spacing-md) var(--spacing-xs) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-400) !important;
+    background-color: transparent !important;
+    border: none !important;
+    transition: background var(--ease-in-out-default);
+}
+
+.dijitMenuPopup .dijitMenuItemIcon {
+    padding: 0 var(--spacing-sm) !important;
+    background-position: center !important;
+}
+
+.dijitMenuPopup td:nth-child(1) {
+    border-top-left-radius: var(--radius-md) !important;
+    border-bottom-left-radius: var(--radius-md) !important;
+}
+
+.dijitMenuPopup td:nth-child(4) {
+    border-top-right-radius: var(--radius-md) !important;
+    border-bottom-right-radius: var(--radius-md) !important;
+}
+
+.dijitMenuPopup tr.dijitHover td {
+    color: var(--text-neutral-200) !important;
+    background: var(--bg-neutral-300) !important;
+}
+
+.dijitMenuPopup tr.dijitSelected td {
+    color: var(--text-neutral-200) !important;
+    background: var(--bg-neutral-300) !important;
+    border: none !important;
+}
+
+.dijitMenuPopup .dijitMenuItemSelected {
+    background: none !important; /* Remove a weird background */
+}

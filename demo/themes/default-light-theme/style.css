@@ -1,0 +1,1043 @@
+:root {
+  color-scheme: light;
+}
+
+:root {
+  /* Style guides - Default Dark Theme*/
+  --neutral-50: 250, 250, 250;
+  --neutral-100: 240, 240, 240;
+  --neutral-200: 229, 229, 229;
+  --neutral-300: 212, 212, 212;
+  --neutral-400: 163, 163, 163;
+  --neutral-500: 115, 115, 115;
+  --neutral-600: 82, 82, 82;
+  --neutral-700: 64, 64, 64;
+  --neutral-800: 38, 38, 38;
+  --neutral-900: 23, 23, 23;
+  --neutral-950: 10, 10, 10;
+  /* Colors Setup =======================================*/
+  /* Neutral ------------------------------------------- */
+  --color-neutral-50: light-dark(
+      rgb(var(--neutral-950)) rgb(var(--neutral-50))
+  );
+  --color-neutral-100: light-dark(
+      rgb(var(--neutral-900)),
+      rgb(var(--neutral-100))
+  );
+  --color-neutral-200: light-dark(
+      rgb(var(--neutral-800)),
+      rgb(var(--neutral-200))
+  );
+  --color-neutral-300: light-dark(
+      rgb(var(--neutral-700)),
+      rgb(var(--neutral-300))
+  );
+  --color-neutral-400: light-dark(
+      rgb(var(--neutral-600)),
+      rgb(var(--neutral-400))
+  );
+  --color-neutral-500: light-dark(
+      rgb(var(--neutral-500)),
+      rgb(var(--neutral-500))
+  );
+  --color-neutral-600: light-dark(
+      rgb(var(--neutral-400)),
+      rgb(var(--neutral-600))
+  );
+  --color-neutral-700: light-dark(
+      rgb(var(--neutral-300)),
+      rgb(var(--neutral-700))
+  );
+  --color-neutral-800: light-dark(
+      rgb(var(--neutral-200)),
+      rgb(var(--neutral-800))
+  );
+  --color-neutral-900: light-dark(
+      rgb(var(--neutral-100)),
+      rgb(var(--neutral-900))
+  );
+  --color-neutral-950: light-dark(
+      rgb(var(--neutral-50)),
+      rgb(var(--neutral-950))
+  );
+  /* --------------------------------------------------- */
+  /* =================================================== */
+  /* Backgrounds and Text Colors ======================= */
+  /* Neutral ------------------------------------------- */
+  --bg-neutral-50: var(--color-neutral-950);
+  --bg-neutral-100: var(--color-neutral-900);
+  --bg-neutral-200: var(--color-neutral-800);
+  --bg-neutral-300: var(--color-neutral-700);
+  --bg-neutral-400: var(--color-neutral-600);
+  --bg-neutral-500: var(--color-neutral-500);
+  --bg-neutral-600: var(--color-neutral-400);
+  --bg-neutral-700: var(--color-neutral-300);
+  --bg-neutral-800: var(--color-neutral-200);
+  --bg-neutral-900: var(--color-neutral-100);
+  --bg-neutral-950: var(--color-neutral-50);
+  --text-neutral-50: var(--color-neutral-50);
+  --text-neutral-100: var(--color-neutral-100);
+  --text-neutral-200: var(--color-neutral-200);
+  --text-neutral-300: var(--color-neutral-300);
+  --text-neutral-400: var(--color-neutral-400);
+  --text-neutral-500: var(--color-neutral-500);
+  --text-neutral-600: var(--color-neutral-600);
+  --text-neutral-700: var(--color-neutral-700);
+  --text-neutral-800: var(--color-neutral-800);
+  --text-neutral-900: var(--color-neutral-900);
+  --text-neutral-950: var(--color-neutral-950);
+  /* --------------------------------------------------- */
+  /* =================================================== */
+  /* Fonts ============================================== */
+  /* Font Family ---------------------------------------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+  /* Font Size ----------------------------------------- */
+  /* Font Size ----------------------------------------- */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  /* --------------------------------------------------- */
+  /* Font Weight --------------------------------------- */
+  /* Font Weight --------------------------------------- */
+  --font-thin: 200;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+  /* --------------------------------------------------- */
+  /* =================================================== */
+  /* Spacing =========================================== */
+  /* Spacing =========================================== */
+  --size-none: 0;
+  --size-xs: 2px;
+  --size-sm: 4px;
+  --size-md: 6px;
+  --size-lg: 8px;
+  --size-xl: 12px;
+  --size-2xl: 16px;
+  --size-3xl: 24px;
+  /* =================================================== */
+  /* Spacing =========================================== */
+  /* Spacing =========================================== */
+  --spacing-none: 0;
+  --spacing-xs: 2px;
+  --spacing-sm: 4px;
+  --spacing-md: 6px;
+  --spacing-lg: 8px;
+  --spacing-xl: 12px;
+  --spacing-2xl: 16px;
+  --spacing-3xl: 24px;
+  /* =================================================== */
+  /* Radius ============================================ */
+  /* Radius ============================================ */
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  /* =================================================== */
+  /* Easing ============================================ */
+  /* Easing ============================================ */
+  --ease-in-out-default: ease-in-out 0.2s;
+  /* =================================================== */
+  /* Shadows ============================================ */
+  /* Shadows ============================================ */
+  --shadow-2xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-xs: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+      0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+      0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  /* =================================================== */
+}
+
+.SimulinkModelIcon_icon,
+.MdlRefBlockIcon_icon,
+.BlockIcon_icon,
+.SubSystemIcon_icon,
+.LineIcon_icon,
+.requirements_requirements_icon {
+  background-size: var(--size-2xl) !important;
+  background-position: unset !important;
+}
+
+.dijitArrowButtonInner,
+.dijitCheckBoxIcon,
+.dijitCheckBox,
+.dijitCheckBoxChecked,
+.dijitArrowNode {
+  background-size: contain !important;
+  background-position: unset !important;
+  transition: transform var(--ease-in-out-default);
+}
+
+.dijitDialogCloseIcon,
+.dijitTreeExpandoClosed,
+.dijitTreeExpandoOpened {
+  background-size: contain !important;
+  background-position: unset !important;
+}
+
+.dijitDropDownButtonOpened .dijitArrowButtonInner {
+  transform: rotate(90deg);
+}
+
+.dgrid-sort-arrow {
+  background-size: contain !important;
+  background-position: unset !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  user-select: none !important;
+  transform: rotate(-90deg) !important;
+}
+.dgrid-sort-up .dgrid-sort-arrow {
+  transform: rotate(90deg) !important;
+}
+
+.Search_Collapse_16,
+.Search_Search_16,
+.Search_Adv_Search_16 {
+  background-size: contain !important;
+  background-position: unset !important;
+}
+
+.Palette_Expand,
+.Palette_CollapseHover,
+.Palette_Collapse,
+.Palette_CollapseHover {
+  background-size: contain !important;
+  background-position: unset !important;
+  transition: transform var(--ease-in-out-default);
+  transform: rotate(90deg) !important;
+}
+
+.Palette_Expand {
+  transform: rotate(-90deg) !important;
+}
+
+.Palette_Pan,
+.Palette_ZoomFitView,
+.Palette_ZoomFitViewHover,
+.Palette_ZoomMarquee,
+.Palette_ZoomMarqueeHover {
+  background-size: contain !important;
+  background-position: unset !important;
+  transition: transform var(--ease-in-out-default);
+}
+
+.Palette_Show,
+.Palette_ShowHover,
+.Palette_HideHover,
+.Palette_Hide {
+  background-size: contain !important;
+  background-position: unset !important;
+  transition: transform var(--ease-in-out-default);
+}
+
+.Palette_HideHover,
+.Palette_Hide {
+  transform: rotate(180deg) !important;
+}
+
+.SimulinkModelIcon_icon {
+  background-image: url(../icons/default/light/Model.svg) !important;
+}
+
+.MdlRefBlockIcon_icon {
+  background-image: url(../icons/default/light/Model_Reference.svg) !important;
+}
+
+.BlockIcon_icon {
+  background-image: url(../icons/default/light/Block.svg) !important;
+}
+
+.SubSystemIcon_icon {
+  background-image: url(../icons/default/light/Subsystem.svg) !important;
+}
+
+.LineIcon_icon {
+  background-image: url(../icons/default/light/Connector.svg) !important;
+}
+
+.requirements_requirements_icon {
+  background-image: url(../icons/default/light/Checklist.svg) !important;
+}
+
+.dijitArrowButtonInner {
+  background-image: url(../icons/default/light/Expand_right.svg) !important;
+}
+
+.dijitCheckBoxIcon,
+.dijitCheckBox {
+  background-image: url(../icons/default/light/Checkbox_Unchecked.svg) !important;
+}
+
+.dijitCheckBoxChecked {
+  background-image: url(../icons/default/light/Checkbox_Checked.svg) !important;
+}
+
+.dijitDialogCloseIcon {
+  background-image: url(../icons/default/light/Close.svg) !important;
+}
+
+.dijitArrowNode {
+  background-image: url(../icons/default/light/Expand_right.svg) !important;
+}
+
+.dijitTreeExpandoOpened {
+  background-image: url(../icons/default/light/Minus.svg) !important;
+}
+
+.dijitTreeExpandoClosed {
+  background-image: url(../icons/default/light/Add.svg) !important;
+}
+
+.dgrid-sort-arrow {
+  background-image: url(../icons/default/light/Expand_right.svg) !important;
+}
+
+.Search_Collapse_16 {
+  background-image: url(../icons/default/light/Expand_right_stop.svg) !important;
+}
+
+.Search_Search_16 {
+  background-image: url(../icons/default/light/Search.svg) !important;
+}
+
+.Search_Adv_Search_16 {
+  background-image: url(../icons/default/light/Filter.svg) !important;
+}
+
+.Palette_Expand,
+.Palette_CollapseHover,
+.Palette_Collapse,
+.Palette_CollapseHover,
+.Palette_Show,
+.Palette_ShowHover,
+.Palette_HideHover,
+.Palette_Hide {
+  background-image: url(../icons/default/light/Expand_right_double.svg) !important;
+}
+
+.Palette_Pan {
+  background-image: url(../icons/default/light/Drag.svg) !important;
+}
+
+.Palette_ZoomFitView,
+.Palette_ZoomFitViewHover {
+  background-image: url(../icons/default/light/Full_Screen.svg) !important;
+}
+
+.Palette_ZoomMarquee,
+.Palette_ZoomMarqueeHover {
+  background-image: url(../icons/default/light/Zoom.svg) !important;
+}
+
+.dijitBorderContainerNoGutter {
+  background-color: var(--bg-neutral-50) !important;
+}
+
+.dijitTabPane {
+  position: absolute !important;
+  inset: 0 !important;
+}
+
+.dijitTabContainer {
+  background-color: var(--bg-neutral-50) !important;
+  padding: var(--spacing-md);
+}
+
+.dijitFocusedLabel {
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: var(--bg-neutral-200);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-neutral-300);
+  border-radius: 4px;
+  -webkit-transition: all var(--ease-in-out-default);
+  transition: all var(--ease-in-out-default);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-neutral-400);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.wvModelBrowser {
+  margin: var(--spacing-md) !important;
+  margin-right: var(--spacing-sm) !important;
+  background: var(--bg-neutral-100) !important;
+  border-radius: var(--radius-md) !important;
+}
+.wvModelBrowser .dijitTree {
+  width: calc(100% - 2 * var(--spacing-md)) !important;
+  padding: var(--spacing-md) !important;
+}
+.wvModelBrowser .dijitTree .dijitTreeRow {
+  padding-top: var(--spacing-xs) !important;
+  padding-bottom: var(--spacing-xs) !important;
+  margin-bottom: var(--spacing-xs) !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--text-xs) !important;
+  font-weight: var(--font-normal) !important;
+  color: var(--text-neutral-100) !important;
+  border: none !important;
+  border-radius: var(--radius-sm) !important;
+}
+.wvModelBrowser .dijitTree .dijitTreeRowSelected {
+  background: var(--bg-neutral-200) !important;
+}
+.wvModelBrowser .dijitTree .dijitTreeRowHover {
+  background: var(--bg-neutral-300) !important;
+}
+.wvModelBrowser .dijitTree .wvModelBrowserTreeRowHover {
+  background: var(--bg-neutral-300) !important;
+}
+
+.wvModelInspector {
+  margin: var(--spacing-md) 0;
+  margin-left: var(--spacing-md);
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+  background: var(--bg-neutral-100) !important;
+  border-top-left-radius: var(--radius-xl) !important;
+  border-bottom-left-radius: var(--radius-xl) !important;
+  border-bottom-right-radius: var(--radius-xl) !important;
+}
+
+.wvModelInspectorTitleText {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-semibold) !important;
+  font-size: var(--text-sm) !important;
+  color: var(--text-neutral-100) !important;
+}
+
+.palette-widget {
+  margin: var(--spacing-md) 0;
+  background: none !important;
+}
+
+.palette-widget .vertical-palette-button .dijitButtonNode,
+.palette-widget .vertical-palette-button {
+  margin: 0 !important;
+  background: var(--bg-neutral-100) !important;
+  border: none !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+.palette-widget .vertical-palette-button .dijitButtonText {
+  padding: var(--spacing-2xl) var(--spacing-sm) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-medium) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+  background: none !important;
+  transition: color var(--ease-in-out-default);
+}
+
+.palette-widget .vertical-palette-button.dijitButtonChecked .dijitButtonNode {
+  border-top-right-radius: var(--radius-lg) !important;
+  border-bottom-right-radius: var(--radius-lg) !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.palette-widget .vertical-palette-button.dijitButtonChecked .dijitButtonText {
+  color: var(--text-neutral-200) !important;
+}
+
+.wvModelInspectorTitleBar {
+  padding: var(--spacing-lg);
+}
+
+.wvModelInspectorContainer {
+  width: calc(100% - 16px) !important;
+  margin-bottom: 20px;
+  padding: 0 var(--spacing-md);
+  border-radius: var(--radius-lg);
+}
+
+.wvModelInspector .dijitTitlePane {
+  margin-bottom: var(--spacing-lg);
+  border: none !important;
+  border-radius: var(--radius-md);
+}
+
+.wvModelInspector .dijitTitlePaneTitle {
+  padding: var(--spacing-md) var(--spacing-md);
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-500) !important;
+  background: var(--bg-neutral-100) !important;
+  border: none !important;
+  border-radius: var(--radius-md);
+  transition: all var(--ease-in-out-default);
+}
+
+.wvModelInspector .dijitTitlePaneTitleHover {
+  background: var(--bg-neutral-200) !important;
+}
+
+.wvModelInspector .dijitTitlePaneTitleOpen {
+  color: var(--text-neutral-400) !important;
+  background: var(--bg-neutral-200) !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.wvModelInspector .dijitArrowNode {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.wvModelInspector .dijitTitlePaneTitleOpen .dijitArrowNode {
+  transform: rotate(90deg) !important;
+}
+
+.wvModelInspector .dijitTitlePaneTextNode {
+  margin-left: var(--spacing-lg);
+}
+
+.wvModelInspector .dgrid-header,
+.wvModelInspector .dijitTitlePaneContentOuter {
+  background: none !important;
+}
+
+.wvModelInspector .dgrid .dgrid-scroller {
+  padding: var(--spacing-md) !important;
+  background: var(--bg-neutral-200) !important;
+}
+
+.wvModelInspector .dgrid-cell {
+  color: var(--text-neutral-300) !important;
+  background: none !important;
+  border: none !important;
+}
+
+.wvModelInspector .field-name {
+  font-weight: var(--font-medium) !important;
+  color: var(--text-neutral-500) !important;
+}
+
+.wvModelInspectorFieldValue {
+  width: calc(100% - 10px) !important;
+}
+
+.wvModelViewer .dijitTabContainer {
+  background-color: var(--bg-neutral-50) !important;
+  padding: var(--spacing-md);
+}
+.wvModelViewer .dijitTabContainerTop-tabs {
+  border-bottom: none !important;
+}
+.wvModelViewer .dijitTabContainerTop-tabs .dijitTab {
+  padding: var(--spacing-xs) var(--spacing-2xl) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-sm) !important;
+  color: var(--text-neutral-100) !important;
+  background-color: var(--bg-neutral-100) !important;
+  border: none !important;
+  border-top-left-radius: var(--radius-lg) !important;
+  border-top-right-radius: var(--radius-lg) !important;
+  opacity: 0.25 !important;
+}
+.wvModelViewer .dijitTabContainerTop-tabs .dijitTabChecked {
+  font-weight: var(--font-semibold) !important;
+  opacity: 1 !important;
+}
+.wvModelViewer .dijitTabContainerTop-tabs .dijitHover {
+  opacity: 0.5 !important;
+  transition: opacity var(--ease-in-out-default);
+}
+.wvModelViewer .dijitBorderContainerNoGutter {
+  background: var(--bg-neutral-100) !important;
+}
+.wvModelViewer .dijitTabPaneWrapper {
+  padding: var(--spacing-sm);
+  color: var(--text-neutral-100) !important;
+  background-color: var(--bg-neutral-100) !important;
+  border: none !important;
+  border-top-right-radius: var(--radius-xl) !important;
+  border-bottom-left-radius: var(--radius-xl) !important;
+  border-bottom-right-radius: var(--radius-xl) !important;
+}
+
+.wvModelViewer .wvExplorerBar {
+  color: var(--text-neutral-100) !important;
+  background-color: var(--bg-neutral-200) !important;
+  border: none !important;
+  border-radius: var(--radius-lg);
+  /* Search Bar */
+}
+.wvModelViewer .wvExplorerBar .dijitSplitterV .dijitSplitterThumb {
+  top: 4px !important;
+  height: calc(100% - 8px) !important;
+  background: var(--bg-neutral-300) !important;
+}
+.wvModelViewer .wvExplorerBar .dijitSplitterVHover,
+.wvModelViewer .wvExplorerBar .dijitSplitterVActive {
+  background: var(--bg-neutral-500) !important;
+  border-radius: var(--radius-sm);
+}
+.wvModelViewer .wvExplorerBar .dijitSplitterVHover .dijitSplitterThumb,
+.wvModelViewer .wvExplorerBar .dijitSplitterVActive .dijitSplitterThumb {
+  background: var(--bg-neutral-500) !important;
+}
+.wvModelViewer .wvExplorerBar .dijitButtonText {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+}
+.wvModelViewer .wvExplorerBar.dijitHover .dijitButtonText {
+  background: none !important;
+  color: var(--text-neutral-100) !important;
+  transition: color var(--ease-in-out-default);
+}
+.wvModelViewer .wvExplorerBar > .wvExplorerBarToggleButtonSplitter {
+  display: none !important;
+}
+.wvModelViewer .wvExplorerBar .system-button-widgetHover {
+  background: none !important;
+  color: var(--text-neutral-100) !important;
+  transition: color var(--ease-in-out-default);
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarExpandButton {
+  line-height: 26px;
+  margin-right: var(--spacing-md);
+  overflow: visible !important;
+  transform: rotate(90deg);
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarExpandButton.dijitDropDownButtonHover {
+  background: none !important;
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarExpandButton.dijitDropDownButtonOpened .dijitArrowButtonInner {
+  transform: rotate(180deg) !important;
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarToggleButton.dijitButton {
+  background: none !important;
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarToggleButton.dijitButton > .dijitButtonNode {
+  background: none !important;
+  border: none !important;
+}
+.wvModelViewer .wvExplorerBar .wvExplorerBarToggleButton.dijitButtonHover > .dijitButtonNode {
+  background: var(--bg-neutral-400) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.wvInlineSearch {
+  background: none !important;
+}
+.wvInlineSearch > .dijitDropDownButton {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.wvInlineSearch > .dijitDropDownButton > .dijitButtonNode {
+  background: none !important;
+  border: none !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: none !important;
+}
+.wvInlineSearch > .dijitDropDownButtonHover > .dijitButtonNode {
+  background: var(--bg-neutral-400) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.wvInlineSearch > form {
+  background: none !important;
+}
+.wvInlineSearch .dijitTextBox {
+  margin-right: var(--spacing-md) !important;
+  background: var(--bg-neutral-300) !important;
+  border: none !important;
+  border-radius: var(--radius-sm) !important;
+  overflow: hidden !important;
+}
+.wvInlineSearch .dijitTextBox input {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-100) !important;
+  background: none !important;
+  caret-color: var(--text-neutral-100);
+  border-radius: var(--radius-sm);
+}
+.wvInlineSearch .dijitTextBox .dijitPlaceHolder {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-500) !important;
+}
+.wvInlineSearch .dijitFocused .dijitInputContainer {
+  background: none !important;
+}
+
+/* Diagram View */
+.wvDiagramTabViewPane {
+  padding-top: var(--spacing-sm) !important;
+}
+.wvDiagramTabViewPane .model-graphics-widget {
+  background: linear-gradient(-90deg, rgba(120, 120, 120, 0.05) 1px, transparent 1px), linear-gradient(rgba(120, 120, 120, 0.05) 1px, transparent 1px), linear-gradient(-90deg, rgba(120, 120, 120, 0.04) 1px, transparent 1px), linear-gradient(rgba(120, 120, 120, 0.04) 1px, transparent 1px), linear-gradient(transparent 3px, var(--bg-neutral-100) 3px, var(--bg-neutral-100) 78px, transparent 78px), linear-gradient(-90deg, var(--bg-neutral-200) 1px, transparent 1px), linear-gradient(-90deg, transparent 3px, var(--bg-neutral-100) 3px, var(--bg-neutral-100) 78px, transparent 78px), linear-gradient(var(--bg-neutral-200) 1px, transparent 1px), var(--bg-neutral-100) !important;
+  background-size: 4px 4px, 4px 4px, 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+.wvViewAllTabImg {
+  width: 200px !important;
+  height: 200px !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  background: var(--bg-neutral-200) !important;
+  border-radius: var(--radius-lg) !important;
+  transition: background var(--ease-in-out-default);
+}
+
+.wvViewAllTabImgHover {
+  background: var(--bg-neutral-400) !important;
+}
+
+.wvViewAllTabImgSelected {
+  background: var(--bg-neutral-300) !important;
+}
+
+.dijitTooltipContainer,
+.dijitMenu,
+.dijitMenu .dijitMenuPopup {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+  background: var(--bg-neutral-200) !important;
+  border: none !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.dijitTooltipContainer {
+  color: var(--text-neutral-300) !important;
+}
+
+.dijitMenuPopup .dijitMenu.system-button-widget {
+  margin: var(--spacing-lg) 0;
+}
+
+.dijitMenu td,
+.dijitMenuPopup td {
+  padding: var(--spacing-md) var(--spacing-xs) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+  background-color: transparent !important;
+  border: none !important;
+  transition: background var(--ease-in-out-default);
+}
+
+.dijitMenuPopup .dijitMenuItemIcon {
+  padding: 0 var(--spacing-sm) !important;
+  background-position: center !important;
+}
+
+.dijitMenuPopup td:nth-child(1) {
+  border-top-left-radius: var(--radius-md) !important;
+  border-bottom-left-radius: var(--radius-md) !important;
+}
+
+.dijitMenuPopup td:nth-child(4) {
+  border-top-right-radius: var(--radius-md) !important;
+  border-bottom-right-radius: var(--radius-md) !important;
+}
+
+.dijitMenuPopup tr.dijitHover td {
+  color: var(--text-neutral-200) !important;
+  background: var(--bg-neutral-300) !important;
+}
+
+.dijitMenuPopup tr.dijitSelected td {
+  color: var(--text-neutral-200) !important;
+  background: var(--bg-neutral-300) !important;
+  border: none !important;
+}
+
+.dijitMenuPopup .dijitMenuItemSelected {
+  background: none !important; /* Remove a weird background */
+}
+
+.dijitSplitterV {
+  cursor: ew-resize !important;
+}
+.dijitSplitterV .dijitSplitterThumb {
+  left: 2px !important;
+  top: 8px !important;
+  height: calc(100% - 16px) !important;
+  width: 2px !important;
+  margin: auto 0;
+  background: var(--bg-neutral-100) !important;
+  border-radius: 1px !important;
+}
+
+.dijitSplitterH {
+  cursor: ns-resize !important;
+}
+.dijitSplitterH .dijitSplitterThumb {
+  left: 8px !important;
+  top: 2px !important;
+  height: 2px !important;
+  width: calc(100% - 16px) !important;
+  background: var(--bg-neutral-100) !important;
+  border-radius: 1px !important;
+}
+
+.dijitSplitterVHover,
+.dijitSplitterHHover,
+.dijitSplitterVActive,
+.dijitSplitterHActive {
+  background: var(--bg-neutral-500) !important;
+  border-radius: var(--radius-sm);
+}
+.dijitSplitterVHover .dijitSplitterThumb,
+.dijitSplitterHHover .dijitSplitterThumb,
+.dijitSplitterVActive .dijitSplitterThumb,
+.dijitSplitterHActive .dijitSplitterThumb {
+  background: var(--bg-neutral-500) !important;
+}
+
+.dgrid-resize-handle {
+  height: 100% !important;
+  width: 2px !important;
+  top: 0 !important;
+  background: var(--bg-neutral-300) !important;
+  border: none !important;
+  border-radius: 1px;
+  cursor: ew-resize !important;
+}
+.dgrid-resize-handle:hover {
+  background: var(--bg-neutral-400) !important;
+}
+
+.wvSearchResultsPane {
+  margin: var(--spacing-md) !important;
+  padding: var(--spacing-md) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  background: var(--bg-neutral-100) !important;
+  border-radius: var(--radius-xl);
+}
+.wvSearchResultsPane .wvSearchResultsPaneTitleBar {
+  padding: var(--spacing-sm) !important;
+}
+.wvSearchResultsPane .wvSearchResultsPaneTitleText {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-medium) !important;
+  font-size: var(--text-sm) !important;
+  color: var(--text-neutral-100) !important;
+}
+.wvSearchResultsPane .wvSearchResultsPaneContent {
+  background: none !important;
+}
+.wvSearchResultsPane .dgrid {
+  height: calc(100% - 36px) !important;
+  width: calc(100% - 24px) !important;
+  margin-top: 6px;
+  background: none !important;
+}
+.wvSearchResultsPane .dgrid-scroller {
+  background-color: var(--bg-neutral-100) !important;
+}
+.wvSearchResultsPane .dgrid-content {
+  padding-right: var(--spacing-md) !important;
+}
+.wvSearchResultsPane .dgrid-content .dgrid-selected {
+  background: var(--bg-neutral-200) !important;
+}
+.wvSearchResultsPane .dgrid-cell {
+  padding: var(--spacing-lg) var(--spacing-md) !important;
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid var(--bg-neutral-200) !important;
+}
+.wvSearchResultsPane tr {
+  background: transparent !important;
+  cursor: pointer !important;
+  transition: background var(--ease-in-out-default);
+}
+.wvSearchResultsPane tr:hover,
+.wvSearchResultsPane .dgrid-header .dgrid-cell:hover {
+  background: var(--bg-neutral-300) !important;
+}
+.wvSearchResultsPane .wvSearchResultsPane .dgrid-selected tr:hover,
+.wvSearchResultsPane .wvSearchResultsPane .dgrid-header tr:hover {
+  background: none !important;
+}
+.wvSearchResultsPane .dgrid-selected tr:hover,
+.wvSearchResultsPane .dgrid-header tr:hover {
+  background: none !important;
+}
+.wvSearchResultsPane .dgrid-header {
+  padding-right: var(--spacing-lg) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-medium) !important;
+  font-size: var(--text-xs) !important;
+  background: none !important;
+  border: none !important;
+}
+.wvSearchResultsPane .dgrid-sort-arrow {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.wvSearchResultsPaneViewListCheckbox {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+  cursor: pointer !important;
+}
+
+.wvSearchResultsPaneViewListAndNavOptions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.wvSearchResultsPaneViewListAndNavOptions input[type=checkbox i] {
+  margin: 0 !important;
+  cursor: pointer !important;
+}
+
+.wvSearchResultsPaneResultsCount {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-500) !important;
+}
+
+.wvSearchResultsPaneViewListAndNavOptions button {
+  padding: 0 !important;
+  height: 20px !important;
+  width: 20px !important;
+  font-family: var(--font-mono) !important;
+  font-weight: var(--font-medium) !important;
+  font-size: var(--text-sm) !important;
+  text-align: center;
+  color: var(--text-neutral-300) !important;
+  background: var(--bg-neutral-200) !important;
+  border: none !important;
+  border-radius: var(--radius-sm);
+  outline: none !important;
+  cursor: pointer !important;
+  transition: background var(--ease-in-out-default);
+}
+
+.wvSearchResultsPaneViewListAndNavOptions button:hover {
+  background: var(--bg-neutral-300) !important;
+}
+
+.wvSearchResultsPaneTitleBar .dijitDialogCloseIcon {
+  height: 12px !important;
+  width: 12px !important;
+  right: 12px !important;
+  top: 14px !important;
+}
+
+.palette-widget[widgetid=dijit__TemplatedMixin_4] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm) !important;
+  align-items: center !important;
+  padding: var(--spacing-sm) var(--spacing-xs) !important;
+  margin-left: var(--spacing-sm) !important;
+  background-color: var(--bg-neutral-100) !important;
+  border-radius: var(--radius-lg) !important;
+}
+.palette-widget[widgetid=dijit__TemplatedMixin_4] .palette-separator-icon {
+  background: var(--bg-neutral-300) !important;
+  background-size: contain !important;
+  background-position: unset !important;
+}
+.palette-widget[widgetid=dijit__TemplatedMixin_4] .dijitButtonNode {
+  padding: var(--spacing-sm) !important;
+  border-radius: var(--radius-sm) !important;
+}
+.palette-widget[widgetid=dijit__TemplatedMixin_4] .dijitButtonHover .dijitButtonNode {
+  background: var(--bg-neutral-400) !important;
+}
+.palette-widget[widgetid=dijit__TemplatedMixin_4] .dijitButtonChecked .dijitButtonNode {
+  background: var(--bg-neutral-300) !important;
+}
+
+.dijitTooltipConnector {
+  display: none !important;
+}
+
+.dijitTooltipContainer {
+  padding: var(--spacing-lg) !important;
+  background: var(--bg-neutral-300) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+.dijitTooltipContainer .dijitTooltipContents {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  color: var(--text-neutral-400) !important;
+}
+
+.wvInformer {
+  margin: var(--spacing-md) !important;
+  padding: var(--spacing-md) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-normal) !important;
+  font-size: var(--text-xs) !important;
+  background: var(--bg-neutral-100) !important;
+  border-radius: var(--radius-xl);
+}
+.wvInformer .wvInformerTitleText {
+  font-family: var(--font-sans) !important;
+  font-weight: var(--font-medium) !important;
+  font-size: var(--text-sm) !important;
+  color: var(--text-neutral-100) !important;
+}
+.wvInformer .wvInformerContent {
+  background: var(--bg-neutral-100) !important;
+}/*# sourceMappingURL=style.css.map */

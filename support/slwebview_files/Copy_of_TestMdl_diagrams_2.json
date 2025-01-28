@@ -1,0 +1,128 @@
+[
+ {
+  "hid": 2,
+  "sid": "Copy_of_TestMdl",
+  "rsid": "Copy_of_TestMdl",
+  "esid": "TestMdl:14",
+  "parent": 1,
+  "children": [
+   3
+  ],
+  "name": "Model (Copy_of_TestMdl)",
+  "fullname": "TestMdl/Model (Copy_of_TestMdl)",
+  "label": "Model (Copy_of_TestMdl)",
+  "className": "Simulink.ModelReference",
+  "icon": "MdlRefBlockIcon_icon",
+  "svg": "support/slwebview_files/Copy_of_TestMdl_d.svg",
+  "thumbnail": "support/slwebview_files/Copy_of_TestMdl_d.svg",
+  "elements": [
+   {
+    "sid": "Copy_of_TestMdl:2",
+    "rsid": "Copy_of_TestMdl:2",
+    "name": "Rate Transition",
+    "label": "Rate Transition",
+    "className": "Simulink.RateTransition",
+    "icon": "BlockIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:6",
+    "rsid": "Copy_of_TestMdl:6",
+    "name": "Scope",
+    "label": "Scope",
+    "className": "Simulink.Scope",
+    "icon": "BlockIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:1",
+    "rsid": "Copy_of_TestMdl:1",
+    "name": "Sine Wave",
+    "label": "Sine Wave",
+    "className": "Simulink.Sin",
+    "icon": "BlockIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:3",
+    "rsid": "Copy_of_TestMdl:3",
+    "name": "Subsystem",
+    "label": "Subsystem",
+    "className": "Simulink.SubSystem",
+    "icon": "SubSystemIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:3#out:1;line",
+    "rsid": "Copy_of_TestMdl:3#out:1;line",
+    "name": "",
+    "label": "",
+    "className": "Simulink.Line",
+    "icon": "LineIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:2#out:1;line",
+    "rsid": "Copy_of_TestMdl:2#out:1;line",
+    "name": "",
+    "label": "",
+    "className": "Simulink.Line",
+    "icon": "LineIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:1#out:1;line",
+    "rsid": "Copy_of_TestMdl:1#out:1;line",
+    "name": "",
+    "label": "",
+    "className": "Simulink.Line",
+    "icon": "LineIcon_icon"
+   }
+  ],
+  "sysViewURL": "support/slwebview_files/Copy_of_TestMdl_d.json",
+  "optViewURLs": {
+   "requirements": "support/slwebview_files/Copy_of_TestMdl_d_requirements.json"
+  },
+  "sameAsElement": false
+ },
+ {
+  "hid": 3,
+  "sid": "Copy_of_TestMdl:3",
+  "rsid": "Copy_of_TestMdl:3",
+  "esid": "Copy_of_TestMdl:3",
+  "parent": 2,
+  "children": [],
+  "name": "Subsystem",
+  "fullname": "TestMdl/Model (Copy_of_TestMdl)/Subsystem",
+  "label": "Subsystem",
+  "className": "Simulink.SubSystem",
+  "icon": "SubSystemIcon_icon",
+  "svg": "support/slwebview_files/Copy_of_TestMdl_3_d.svg",
+  "thumbnail": "support/slwebview_files/Copy_of_TestMdl_3_d.svg",
+  "elements": [
+   {
+    "sid": "Copy_of_TestMdl:4",
+    "rsid": "Copy_of_TestMdl:4",
+    "name": "In1",
+    "label": "In1",
+    "className": "Simulink.Inport",
+    "icon": "BlockIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:5",
+    "rsid": "Copy_of_TestMdl:5",
+    "name": "Out1",
+    "label": "Out1",
+    "className": "Simulink.Outport",
+    "icon": "BlockIcon_icon"
+   },
+   {
+    "sid": "Copy_of_TestMdl:4#out:1;line",
+    "rsid": "Copy_of_TestMdl:4#out:1;line",
+    "name": "",
+    "label": "",
+    "className": "Simulink.Line",
+    "icon": "LineIcon_icon"
+   }
+  ],
+  "sysViewURL": "support/slwebview_files/Copy_of_TestMdl_3_d.json",
+  "optViewURLs": {
+   "requirements": "support/slwebview_files/Copy_of_TestMdl_3_d_requirements.json"
+  },
+  "sameAsElement": false
+ }
+]

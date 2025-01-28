@@ -1,0 +1,20 @@
+.wvInformer {
+    margin: var(--spacing-md) !important;
+    padding: var(--spacing-md) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    background: var(--bg-neutral-100) !important;
+    border-radius: var(--radius-xl);
+
+    .wvInformerTitleText {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-medium) !important;
+        font-size: var(--text-sm) !important;
+        color: var(--text-neutral-100) !important;
+    }
+
+    .wvInformerContent {
+        background: var(--bg-neutral-100) !important;
+    }
+}

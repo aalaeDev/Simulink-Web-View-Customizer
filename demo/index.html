@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Themes Demo</title>
+        <link rel="stylesheet" href="themes/xaeon-dark-theme/style.css" />
+    </head>
+    <style>
+        body {
+            background-color: var(--bg-neutral-50);
+            color: var(--text-neutral-200);
+            margin: 0;
+            padding: 0 var(--spacing-3xl);
+
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-md);
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1,
+        h2 {
+            font-family: var(--font-sans);
+            font-size: var(--text-2xl);
+            font-weight: var(--font-bold);
+            margin: 0;
+        }
+        h1 {
+            margin-top: var(--spacing-3xl);
+        }
+        h2 {
+            font-size: var(--text-lg);
+        }
+        p {
+            font-family: var(--font-sans);
+            font-size: var(--text-sm);
+            font-weight: var(--font-normal);
+        }
+        .themes-container {
+            margin-top: var(--spacing-2xl);
+            padding: var(--spacing-3xl);
+            background-color: var(--bg-neutral-100);
+            display: flex;
+            gap: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            flex-wrap: wrap;
+        }
+        .theme-card {
+            padding: var(--spacing-3xl);
+            background-color: var(--bg-neutral-200);
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            color: var(--text-neutral-200);
+            transition: background-color 0.3s ease;
+        }
+        .theme-card:hover {
+            background-color: var(--bg-neutral-300);
+        }
+        .theme-card img {
+            width: 400px;
+            height: auto;
+            border-radius: var(--radius-lg);
+        }
+    </style>
+    <body>
+        <h1>Themes Demo</h1>
+
+        <div class="themes-container">
+            <a href="default-dark-mode/index.html" class="theme-card">
+                <h2>Default Dark Theme</h2>
+                <p>This is a demo of the Default Dark Theme.</p>
+                <img
+                    src="assets/default_dark_mode_demo.png"
+                    alt="Default Dark Theme"
+                />
+            </a>
+            <a href="default-light-mode/index.html" class="theme-card">
+                <h2>Default Light Theme</h2>
+                <p>This is a demo of the Default Light Theme.</p>
+                <img
+                    src="assets/default_light_mode_demo.png"
+                    alt="Default Light Theme"
+                />
+            </a>
+            <a href="xaeon-dark-mode/index.html" class="theme-card">
+                <h2>Xaeon Dark Theme</h2>
+                <p>This is a demo of the Xaeon Dark Theme.</p>
+                <img
+                    src="assets/xaeon_dark_mode_demo.png"
+                    alt="Xaeon Dark Theme"
+                />
+            </a>
+        </div>
+    </body>
+</html>

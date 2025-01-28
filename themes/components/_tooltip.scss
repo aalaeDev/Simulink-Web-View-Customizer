@@ -1,0 +1,17 @@
+.dijitTooltipConnector {
+    display: none !important;
+}
+
+.dijitTooltipContainer {
+    padding: var(--spacing-lg) !important;
+    background: var(--bg-neutral-300) !important;
+    border-radius: var(--radius-lg) !important;
+    box-shadow: var(--shadow-lg) !important;
+
+    .dijitTooltipContents {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-normal) !important;
+        font-size: var(--text-xs) !important;
+        color: var(--text-neutral-400) !important;
+    }
+}

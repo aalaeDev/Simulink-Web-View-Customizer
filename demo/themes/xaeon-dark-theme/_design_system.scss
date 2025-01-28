@@ -1,0 +1,173 @@
+:root {
+    /* Style guides - Default Dark Theme*/
+
+    --neutral-50: 239, 238, 230;
+    --neutral-100: 223, 222, 215;
+    --neutral-200: 191, 189, 200;
+    --neutral-300: 156, 152, 180;
+    --neutral-400: 124, 119, 150;
+    --neutral-500: 94, 87, 130;
+    --neutral-600: 74, 69, 115;
+    --neutral-700: 55, 52, 80;
+    --neutral-800: 36, 34, 58;
+    --neutral-900: 16, 15, 28;
+    --neutral-950: 13, 11, 21;
+
+    /* Colors Setup =======================================*/
+    /* Neutral ------------------------------------------- */
+    --color-neutral-50: light-dark(
+        rgb(var(--neutral-950)) rgb(var(--neutral-50))
+    );
+    --color-neutral-100: light-dark(
+        rgb(var(--neutral-900)),
+        rgb(var(--neutral-100))
+    );
+    --color-neutral-200: light-dark(
+        rgb(var(--neutral-800)),
+        rgb(var(--neutral-200))
+    );
+    --color-neutral-300: light-dark(
+        rgb(var(--neutral-700)),
+        rgb(var(--neutral-300))
+    );
+    --color-neutral-400: light-dark(
+        rgb(var(--neutral-600)),
+        rgb(var(--neutral-400))
+    );
+    --color-neutral-500: light-dark(
+        rgb(var(--neutral-500)),
+        rgb(var(--neutral-500))
+    );
+    --color-neutral-600: light-dark(
+        rgb(var(--neutral-400)),
+        rgb(var(--neutral-600))
+    );
+    --color-neutral-700: light-dark(
+        rgb(var(--neutral-300)),
+        rgb(var(--neutral-700))
+    );
+    --color-neutral-800: light-dark(
+        rgb(var(--neutral-200)),
+        rgb(var(--neutral-800))
+    );
+    --color-neutral-900: light-dark(
+        rgb(var(--neutral-100)),
+        rgb(var(--neutral-900))
+    );
+    --color-neutral-950: light-dark(
+        rgb(var(--neutral-50)),
+        rgb(var(--neutral-950))
+    );
+    /* --------------------------------------------------- */
+    /* =================================================== */
+
+    /* Backgrounds and Text Colors ======================= */
+    /* Neutral ------------------------------------------- */
+    --bg-neutral-50: var(--color-neutral-950);
+    --bg-neutral-100: var(--color-neutral-900);
+    --bg-neutral-200: var(--color-neutral-800);
+    --bg-neutral-300: var(--color-neutral-700);
+    --bg-neutral-400: var(--color-neutral-600);
+    --bg-neutral-500: var(--color-neutral-500);
+    --bg-neutral-600: var(--color-neutral-400);
+    --bg-neutral-700: var(--color-neutral-300);
+    --bg-neutral-800: var(--color-neutral-200);
+    --bg-neutral-900: var(--color-neutral-100);
+    --bg-neutral-950: var(--color-neutral-50);
+
+    --text-neutral-50: var(--color-neutral-50);
+    --text-neutral-100: var(--color-neutral-100);
+    --text-neutral-200: var(--color-neutral-200);
+    --text-neutral-300: var(--color-neutral-300);
+    --text-neutral-400: var(--color-neutral-400);
+    --text-neutral-500: var(--color-neutral-500);
+    --text-neutral-600: var(--color-neutral-600);
+    --text-neutral-700: var(--color-neutral-700);
+    --text-neutral-800: var(--color-neutral-800);
+    --text-neutral-900: var(--color-neutral-900);
+    --text-neutral-950: var(--color-neutral-950);
+    /* --------------------------------------------------- */
+    /* =================================================== */
+
+    /* Fonts ============================================== */
+    /* Font Family ---------------------------------------- */
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    /* Font Size ----------------------------------------- */
+    /* Font Size ----------------------------------------- */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    /* --------------------------------------------------- */
+    /* Font Weight --------------------------------------- */
+    /* Font Weight --------------------------------------- */
+    --font-thin: 200;
+    --font-extralight: 200;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    --font-black: 900;
+    /* --------------------------------------------------- */
+    /* =================================================== */
+    /* Spacing =========================================== */
+    /* Spacing =========================================== */
+    --size-none: 0;
+    --size-xs: 2px;
+    --size-sm: 4px;
+    --size-md: 6px;
+    --size-lg: 8px;
+    --size-xl: 12px;
+    --size-2xl: 16px;
+    --size-3xl: 24px;
+    /* =================================================== */
+    /* Spacing =========================================== */
+    /* Spacing =========================================== */
+    --spacing-none: 0;
+    --spacing-xs: 2px;
+    --spacing-sm: 4px;
+    --spacing-md: 6px;
+    --spacing-lg: 8px;
+    --spacing-xl: 12px;
+    --spacing-2xl: 16px;
+    --spacing-3xl: 24px;
+    /* =================================================== */
+    /* Radius ============================================ */
+    /* Radius ============================================ */
+    --radius-none: 0;
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-2xl: 16px;
+    --radius-3xl: 24px;
+    /* =================================================== */
+    /* Easing ============================================ */
+    /* Easing ============================================ */
+    --ease-in-out-default: ease-in-out 0.2s;
+    /* =================================================== */
+    /* Shadows ============================================ */
+    /* Shadows ============================================ */
+    --shadow-2xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-xs: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+        0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+        0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    /* =================================================== */
+}

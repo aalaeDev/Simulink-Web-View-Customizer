@@ -1,0 +1,139 @@
+.wvSearchResultsPane {
+    margin: var(--spacing-md) !important;
+    padding: var(--spacing-md) !important;
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    background: var(--bg-neutral-100) !important;
+    border-radius: var(--radius-xl);
+
+    .wvSearchResultsPaneTitleBar {
+        padding: var(--spacing-sm) !important;
+    }
+
+    .wvSearchResultsPaneTitleText {
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-medium) !important;
+        font-size: var(--text-sm) !important;
+        color: var(--text-neutral-100) !important;
+    }
+
+    .wvSearchResultsPaneContent {
+        background: none !important;
+    }
+
+    .dgrid {
+        height: calc(100% - 36px) !important;
+        width: calc(100% - 24px) !important;
+        margin-top: 6px;
+        background: none !important;
+    }
+
+    .dgrid-scroller {
+        background-color: var(--bg-neutral-100) !important;
+    }
+
+    .dgrid-content {
+        padding-right: var(--spacing-md) !important;
+    }
+
+    .dgrid-content .dgrid-selected {
+        background: var(--bg-neutral-200) !important;
+    }
+    .dgrid-cell {
+        padding: var(--spacing-lg) var(--spacing-md) !important;
+        background: none !important;
+        border: none !important;
+        border-bottom: 1px solid var(--bg-neutral-200) !important;
+    }
+
+    tr {
+        background: transparent !important;
+        cursor: pointer !important;
+        transition: background var(--ease-in-out-default);
+    }
+
+    tr:hover,
+    .dgrid-header .dgrid-cell:hover {
+        background: var(--bg-neutral-300) !important;
+    }
+
+    .wvSearchResultsPane .dgrid-selected tr:hover,
+    .wvSearchResultsPane .dgrid-header tr:hover {
+        background: none !important;
+    }
+
+    .dgrid-selected tr:hover,
+    .dgrid-header tr:hover {
+        background: none !important;
+    }
+
+    .dgrid-header {
+        padding-right: var(--spacing-lg) !important;
+        font-family: var(--font-sans) !important;
+        font-weight: var(--font-medium) !important;
+        font-size: var(--text-xs) !important;
+        background: none !important;
+        border: none !important;
+    }
+
+    .dgrid-sort-arrow {
+        width: 12px !important;
+        height: 12px !important;
+    }
+}
+
+.wvSearchResultsPaneViewListCheckbox {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-400) !important;
+    cursor: pointer !important;
+}
+
+.wvSearchResultsPaneViewListAndNavOptions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.wvSearchResultsPaneViewListAndNavOptions input[type="checkbox" i] {
+    margin: 0 !important;
+    cursor: pointer !important;
+}
+
+.wvSearchResultsPaneResultsCount {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-normal) !important;
+    font-size: var(--text-xs) !important;
+    color: var(--text-neutral-500) !important;
+}
+
+.wvSearchResultsPaneViewListAndNavOptions button {
+    padding: 0 !important;
+    height: 20px !important;
+    width: 20px !important;
+    font-family: var(--font-mono) !important;
+    font-weight: var(--font-medium) !important;
+    font-size: var(--text-sm) !important;
+    text-align: center;
+    color: var(--text-neutral-300) !important;
+    background: var(--bg-neutral-200) !important;
+    border: none !important;
+    border-radius: var(--radius-sm);
+    outline: none !important;
+    cursor: pointer !important;
+    transition: background var(--ease-in-out-default);
+}
+
+.wvSearchResultsPaneViewListAndNavOptions button:hover {
+    background: var(--bg-neutral-300) !important;
+}
+
+.wvSearchResultsPaneTitleBar .dijitDialogCloseIcon {
+    height: 12px !important;
+    width: 12px !important;
+
+    right: 12px !important;
+    top: 14px !important;
+}

@@ -1,0 +1,25 @@
+// Base theme configuration
+:root {
+    color-scheme: dark;
+}
+
+object {
+    color-scheme: light; // Override for object elements to avoid a white background in dark mode
+}
+
+// Core imports
+@import "../components/design_system";
+@import "./icons";
+@import "../components/global_overrides";
+
+// Component imports
+@import "../components/scrollbar";
+@import "../components/model_browser";
+@import "../components/model_inspector";
+@import "../components/model_viewer";
+@import "../components/popup_menu";
+@import "../components/splitter";
+@import "../components/search_results";
+@import "../components/palette_widget";
+@import "../components/tooltip";
+@import "../components/requirements";

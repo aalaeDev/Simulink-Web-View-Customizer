@@ -1,0 +1,35 @@
+.wvModelBrowser {
+    margin: var(--spacing-md) !important;
+    margin-right: var(--spacing-sm) !important;
+    background: var(--bg-neutral-100) !important;
+    border-radius: var(--radius-md) !important;
+
+    .dijitTree {
+        width: calc(100% - 2 * var(--spacing-md)) !important;
+        padding: var(--spacing-md) !important;
+
+        .dijitTreeRow {
+            padding-top: var(--spacing-xs) !important;
+            padding-bottom: var(--spacing-xs) !important;
+            margin-bottom: var(--spacing-xs) !important;
+            font-family: var(--font-sans) !important;
+            font-size: var(--text-xs) !important;
+            font-weight: var(--font-normal) !important;
+            color: var(--text-neutral-100) !important;
+            border: none !important;
+            border-radius: var(--radius-sm) !important;
+        }
+
+        .dijitTreeRowSelected {
+            background: var(--bg-neutral-200) !important;
+        }
+
+        .dijitTreeRowHover {
+            background: var(--bg-neutral-300) !important;
+        }
+
+        .wvModelBrowserTreeRowHover {
+            background: var(--bg-neutral-300) !important;
+        }
+    }
+}
