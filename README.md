@@ -1,8 +1,10 @@
 # Simulink Web View Customizer
 
+![Thumbnail](assets/thumbnail.png)
+
 A Python-based tool to customize the appearance of Simulink-generated web views by injecting custom styles and assets.
 
-Live Demo: [Default Dark Mode]() | [Default Ligh Mode]()
+Live Demo: [Demo](https://aalaedev.github.io/Simulink-Web-View-Customizer/demo/)
 
 ## Overview
 
