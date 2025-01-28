@@ -12,11 +12,11 @@
             "fontFamily": "JetBrains Mono"
         },
         "blocks": {
-            "oldBackgroundColor": "#262626CC",
+            "oldBackgroundColor": "#ffffff",
             "backgroundColor": "#262626CC",
-            "oldForegroundPrimaryColor": "#f5f5f5",
+            "oldForegroundPrimaryColor": "#000000",
             "foregroundPrimaryColor": "#f5f5f5",
-            "oldForegroundSecondaryColor": ["#cecece"],
+            "oldForegroundSecondaryColor": ["#e4e4e4", "#ababab"],
             "foregroundSecondaryColor": "#cecece",
             "useImages": false,
             "useGradients": false
